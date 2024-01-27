@@ -70,9 +70,6 @@ const start = () => {
     } else {
       return bot.sendMessage(chatId, `К сожалению ты не угадал, бот загадал цифру ${chats[chatId]}`, againOptions);
     }
-
-    bot.sendMessage(chatId, 'Ты выбрал цифру ' + data);
-    console.log(msg);
   })
 }
 
